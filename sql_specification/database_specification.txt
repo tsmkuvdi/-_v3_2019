@@ -1,0 +1,7 @@
+kensa_db     utf8_general_ci
+
+  table_kensa
+  table_shidou
+  table_shokuin
+
+
