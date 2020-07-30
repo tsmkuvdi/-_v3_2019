@@ -246,6 +246,7 @@ GoogleChrome以外は日付入力が出来ない場合があります。閲覧�
  </tr>
  <tr>
   <td colspan="2">
+    <a href="https://github.com/tsmkuvdi/kanrisys">GitHub</a>
   </td>
   <td>
     <a href="backup_setsumei.html">バックアップ</a>
