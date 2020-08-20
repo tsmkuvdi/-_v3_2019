@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- ホスト: localhost
--- 生成日時: 2020 年 6 月 27 日 15:48
+-- 生成日時: 2020 年 8 月 20 日 09:04
 -- サーバのバージョン： 5.5.64-MariaDB
 -- PHP のバージョン: 7.1.33
 
@@ -35,14 +35,6 @@ CREATE TABLE `table_shokuin` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- テーブルのデータのダンプ `table_shokuin`
---
-
-INSERT INTO `table_shokuin` (`shokuinid`, `bangou`, `shokuin`, `shozoku`) VALUES
-(2, 19, '青木茂生', 3),
-(4, 20, 'あああああ', 4);
-
---
 -- ダンプしたテーブルのインデックス
 --
 
@@ -60,7 +52,7 @@ ALTER TABLE `table_shokuin`
 -- テーブルのAUTO_INCREMENT `table_shokuin`
 --
 ALTER TABLE `table_shokuin`
-  MODIFY `shokuinid` tinyint(255) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `shokuinid` tinyint(255) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
