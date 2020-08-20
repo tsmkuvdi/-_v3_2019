@@ -12,7 +12,7 @@
 <?php
 // エラーを出力する
 ini_set('display_errors', "On");
-require_once ( __DIR__ .'/../../shokuin/shokuin_config.php');
+require_once ( __DIR__ .'/../../shokuin/function/shokuin_config.php');
 try {
 	if (empty($_POST['mishidou_kan'])) throw new Exception('Error');
 	$shidouken = $_POST['mishidou_kan'];
