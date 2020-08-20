@@ -11,7 +11,7 @@
 <input type="number" min="1" max="1000" name="bangou">
 <br>
 職員名：
-<textarea name="shokuin" cols="16" rows="1" maxlength="10"></textarea>   全て左詰め。例：岳南太郎　岳太郎　岳南はなこ
+<textarea name="shokuin" cols="16" rows="1" maxlength="10"></textarea>   全て左詰め。例：長野太郎　岳太郎　東京はなこ
 <br>
 所属：<br>
   <select name="shozoku">
